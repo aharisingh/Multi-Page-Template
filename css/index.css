@@ -1,0 +1,161 @@
+
+/*navbar*/
+.nav-item .active{
+    border-left: 2px solid grey;
+}
+/*caarousel home page css start here*/
+.carousel-caption .container h1,.carousel-caption .container p{
+    color: cyan;
+}
+
+.carousel-item img{
+   width: 100%;
+    height: 500px;
+}
+.carousel-caption .container button{
+    padding : 5px;
+    border-radius: 5px;
+}
+/*carousel home page css end here*/
+
+/* changing font size of icons in section with id home1 home page*/
+.container .row .col-md-4 i{
+    font-size: 50px;
+}
+
+/*section with id home-2 on home page*/
+#home-2{
+    background-image: url("../images/3d.jpeg");
+    background-size: cover;
+}
+/*section with id home-3 on home page*/
+#home-3 .container .row .offset-md-2 img{
+    width: 300px;
+    height: 300px;
+}
+/*section with id home-4 on home page*/
+#home-4{
+    background-image: url(../images/source.jpeg);
+    height: 200px;
+    width: 100%;
+    opacity: 0.6;
+}
+#home-4 iframe{
+    opacity: 0.4;
+    position: relative;
+}
+#home-4 iframe:hover{
+    opacity: 1;
+}
+/*section with id home-4 on home page ends here*/
+
+/*img section photogallery on home page*/
+.img div img{
+    width: 250px;
+    height: 250px;
+}
+/*form  in section newsletter home page*/
+.form-inline .form-control {
+    border-radius: 12px;
+}
+/*footer homepage*/
+#footer{
+    background-color: black;
+}
+
+/*css for home page ends here*/
+
+
+
+
+/*common transition effect for images on all page start here*/
+.trans{
+   transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+.trans:hover{
+    transform:scale(1.2,1.2);
+}
+/*common transition effect for images on all pages end here*/
+
+
+
+/*css for about page start here*/
+
+#headerabout{
+    background-image: url(../images/image3.jpg)
+      
+}
+
+#headerabout .container{
+    color: cyan;
+}
+
+.card-hov:hover{
+    background-color: rgba(50,50,50);
+    opacity: 0.9;
+    color: white;
+}
+#aboutmain .container .row .col-md-6 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+/*css for about page end here*/
+
+
+
+
+
+/*css for service page start here*/
+#headerservices{
+    background-image: url(../images/image3.jpg);
+      
+}
+#headerservices{
+    color: cyan;
+}
+.list-group-item:hover{
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
+
+.sb-button:hover{
+    border-radius: 10px;
+    transform: scale(1.1,1.1);
+}
+
+.col-md-4 .card .card-header{
+    font-size: 30px;
+}
+
+.accordion .row .col-md-6 .card {
+    background-color: rgba(50,50,50,0.6);
+
+}
+.accordion .row .col-md-6 .card .card-header h5 a{
+    color: cyan;
+}
+.accordion .row .col-md-6 .card .card-body{
+    color: cyan;
+}
+/*css for service page end here*/
+
+/*changing size of image on blog.html page*/
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+}
+
+/*media queries*/
+@media(max-width: 768px){
+    .form-inline .form-control{
+        margin-bottom: 5px
+    }
+    
+}
